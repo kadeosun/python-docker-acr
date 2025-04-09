@@ -32,7 +32,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: your_acr_name.azurecr.io/your_image_name:latest
+          tags: TEDLABSACR.azurecr.io/python-docker-acr:V3
 name: Build and Push to Azure Container Registry
 
 on:
